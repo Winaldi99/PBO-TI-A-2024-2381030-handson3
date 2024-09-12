@@ -6,7 +6,7 @@ public class forloop {
             if (i % 3 == 0 && i != 15) {
                 continue;
             }
-            System.out.println("Nilai I : " + i);
+            System.out.println("Nilai i : " + i);
             if (i == 15) {
                 break;
             }

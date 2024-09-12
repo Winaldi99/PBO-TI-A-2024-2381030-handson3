@@ -1,15 +1,18 @@
 package handson3;
 
-public class foreach {
+public class dowhile {
     public static void main(String[] args) {
-        for(int i = 0; i <= 20; i++) {
+        int i = 1;
+        do {
             if (i % 3 == 0) {
+                i++;
                 continue;
             }
-            if ( i >= 15) {
+            if (i > 15) {
                 break;
             }
             System.out.println("Nilai i : " + i);
-        }
+            i++;
+        } while (i <= 20);
     }
 }
